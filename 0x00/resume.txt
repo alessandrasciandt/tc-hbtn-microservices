@@ -1,0 +1,19 @@
+<<O que é microsserviços ?>
+Diferentemente da tradicional arquitetura monolítica, a arquitetura de microsserviços é uma abordagem na qual a aplicação é estruturada através de vários pequenos serviços autônomos, que trabalham de forma conjunta. Cada microsserviço é feito em torno de capacidades do negócio específicas, como interface com usuário, faturamento ou atendimento. O processo de implantação dos serviços é realizado de forma independente e automatizada, possibilitando entregas contínuas mesmo em sistema grandes e complexos.
+
+<<Visão geral da arquitetura Monolítica e de Microsserviços>
+Embora a Arquitetura de Microsserviços seja muito bem falada e muito bem avaliada nos dias de hoje, não significa que tudo tem que ser feito dessa maneira.
+A Arquitetura Monolítica foi, é e sempre será muito bem usada. Tudo depende da aplicação e das suas características, do time envolvido no projeto, do tempo disponível para o desenvolvimento e até onde esse trabalho pode chegar.
+
+<<Os benefícios da arquitetura de microsserviços - Cite 3 exemplos>
+1. Escalabilidade
+Como os serviços são independentes, é possível escalar somente as partes do sistema que estão sobrecarregadas.
+2. Resiliência
+Com serviços independentes, se um determinado componente do sistema falhar, é possível isolar o problema sem que a aplicação como um todo deixe de funcionar.
+3. Substituição de código
+Como os serviços são pequenos, esta arquitetura diminui o risco e o custo de substituição total da base de código.
+
+<<Quais são os tipos de comunicação entre os microsserviços ?>
+existem várias formas / protocolos de comunicação. HTTP é um protocolo comum de comunicação entre microsserviços usado com mais frequência para comunicação síncrona. Sua abordagem sem estado facilita as interações diretas entre todos os microsserviços. Embora o HTTP forneça comunicação simples, ele pode facilmente causar dependências indesejadas. Recomenda-se usar HTTP apenas como protocolo primário entre uma interface de usuário e o nível mais alto de serviços. Além disso, métodos assíncronos são recomendados.
+No entanto, a introdução de REST para HTTP pode ajudar a lidar com comunicações de solicitação/resposta de forma assíncrona. Se você precisar usar HTTP, considere usar REST também, pois há muita padronização entre os dois. O principal benefício de usar os protocolos combinados são os tempos de resposta mais rápidos.
+Para aqueles que optam por manter os protocolos assíncronos, considere explorar o protocolo de enfileiramento de mensagens avançado ( AMQP ). Esse protocolo amplamente disponível e maduro fornece um método padrão para comunicação de microsserviços e deve ser uma prioridade para aqueles que desenvolvem aplicativos de microsserviços verdadeiramente compostos.
