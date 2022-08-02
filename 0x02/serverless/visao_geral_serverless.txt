@@ -1,0 +1,21 @@
+<<O que é Arquitetura Serverless>>
+A arquitetura serverless (arquitetura sem servidor) desafia o status quo do design de software e os fundamentos de implementação por alcançar um ótimo nível de desenvolvimento, operação e gerenciamento. Embora herde conceitos elementares da Microservices Architecture (MSA), é dotada de padrões arquitetônicos de ponta para atingir o nível mínimo possível de hardware ocioso.
+Apesar dos notáveis avanços que ela representa, a adaptação carece de um processo minucioso para mapear com precisão os requisitos da solução corporativa aplicados à computação sem servidor.
+
+<<O que é Function as a service (FaaS)>>
+Function as a Service (FaaS) é um serviço de computação em nuvem que busca abstrair a questão de servidor e máquinas onde rodam os seus programas. Em detalhes, ela deriva da filosofia Servless, que delega ao provedor de computação em nuvem (Cloud Provider) provisionar uma plataforma que permita ao cliente: desenvolver, rodar e gerenciar aplicações. Nestes moldes, reduz-se a complexidade de uma pessoa ter que montar e manter a infraestrutura, atual padrão de todo mercado corporativo. Montando uma aplicação com este padrão, implementamos a teoria Servless e criamos uma arquitetura nativa de microsserviços.
+
+<<Quais são os benefícios de usar arquitetura Serverless ?>>
+A computação serverless aumenta a produtividade dos desenvolvedores e reduz os custos operacionais. Ela livra os desenvolvedores das tarefas rotineiras de provisionamento e gerenciamento de servidores. Assim, eles têm mais tempo para se concentrar nas aplicações.
+Com a computação serverless, é mais fácil adotar práticas de DevOps, porque os desenvolvedores não precisam mais descrever explicitamente a infraestrutura que eles querem que a equipe de operações provisione.
+É possível incorporar componentes completos de soluções de BaaS de terceiros para otimizar ainda mais o desenvolvimento de aplicações.
+Os custos operacionais são reduzidos no modelo serverless porque você paga o tempo de computação baseado em nuvem conforme necessário. Isso não acontece quando você executa e gerencia os próprios servidores o tempo todo.
+
+<<O que é Cloud Computing (Computação em Nuvem) ? E quais são seu benefícios ?>>
+Simplificando, a computação em nuvem é a entrega de serviços de computação – incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência – pela Internet (“a nuvem”) para oferecer inovação mais rápida, recursos flexíveis e economias de escala. Normalmente, você paga apenas pelos serviços de nuvem que usa, ajudando a reduzir seus custos operacionais, executar sua infraestrutura com mais eficiência e dimensionar à medida que suas necessidades de negócios mudam.
+A computação em nuvem é uma grande mudança em relação à forma tradicional como as empresas pensam sobre os recursos de TI. Aqui estão sete razões comuns pelas quais as organizações estão recorrendo aos serviços de computação em nuvem.
+
+<<Quais são as principais diferenças entre Arquitetura Monolítica, Microsserviços e Serverless ?>>
+Quem tem uma arquitetura de software baseada em microsserviços deve cuidar bem da comunicação entre eles. Isso permite a integração com outros serviços desenvolvidos de forma independente, complementando o sistema de forma mais profissional do que as funções desenvolvidas monoliticamente. As possibilidades de integração são inúmeras, tornando mais simples para a empresa oferecer novos produtos e serviços para os clientes.
+As soluções da Vinco se comportam como microsserviços, pois são especializadas e se integram ao ERP da empresa. Para o usuário final, fica parecendo que é tudo um sistema só. Como a arquitetura é feita em apartado, a emissão de documentos fiscais eletrônicos não interfere nem sofre interferência do sistema de gestão em si, facilitando a atualização e a manutenção e garantindo o funcionamento do módulo de documentos fiscais para que os clientes cumpram suas obrigações fiscais.
+Escolher entre arquitetura de microsserviços e monolítica não é uma tarefa simples. Mudar o modelo adotado também é uma escolha complexa, que envolve a análise de diversos fatores. Tudo indica que o mercado caminha para uma prevalência dos microsserviços, mas, dentro da software house, a escolha é do desenvolvedor.
